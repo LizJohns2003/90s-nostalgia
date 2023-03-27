@@ -6,18 +6,131 @@
     line-height: 1.4;
     font-size: 110%;
     background-color: white;
-}
-
-body{
-    margin: 0;
-}
-
-html {
-box-sizing: border-box;
+    text-align: center;
 }
 
 header>img{
     width: 160px;
     
+}
+
+li{
+    display: inline;
+    background-color: purple;
+    padding: 0%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: .75em;
+    padding-right: .75em;
+    border-radius: 10px;
+}
+
+.wrapper{
+    margin: auto;
+    width: 900px;
+}
+
+a{color:white;}
+a:visited{color: green;}
+a:hover{color:aqua}
+a:focus{color:aquamarine}
+
+.hero{
+    width: 100%;
+    height: auto;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-image: url(/images/greatest-90s-fashion-trends.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.trends{
+    background-color: purple;
+    width: 100%;
+    margin: 0%;
+   
+}
+
+.trends>img{
+    display:inline;
+}
+
+h1{
+align-self: center;
+width: 60%;
+padding: .5em;
+color: white;
+font-size: 2rem;
+text-shadow: 2px 2px rgba(0,0,0,0.8);
+offset: ;
+background-color: rgba(0,0,0,0.25);
+clear: center;
+}
+
+.icon{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: left;
+    clear: left;
+}
+
+.icon>img{
+width: 260px;
+float:left;
+margin: 2em;
+
+}
+
+.icon:last-child{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: left;  
+    width: 100%;
+    clear: left;
+}
+
+.icon>img:last-child{
+    width: 260px;
+    float:left;
+    margin: auto;  
+}
+
+.last-paragraph{
+    float: left;
+background-color: white; 
+margin-bottom: 5em;
+text-align: left;
+}
+.featured-articles{
+    display: none;
+}
+
+figcaption{
+    color: white;
+    font-style: italic;
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    margin: 10em;
+    clear: center;
+}
+
+.trends{
+    display: inline-block;
 }
 
